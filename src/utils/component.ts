@@ -3,3 +3,8 @@ export interface Button {
     label?: string,
     onClick?: () => void
 }
+
+export interface Card {
+    id: string;
+    children?: React.ReactNode
+}
