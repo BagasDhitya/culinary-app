@@ -13,7 +13,7 @@ type Home = {
 
 const Home: FC<Home> = ({ data }) => {
   return (
-    <section className="flex flex-col gap-y-32">
+    <section className="w-full h-max flex flex-col gap-y-32 overflow-x-hidden">
       <Navbar />
       <div className="w-screen font-semibold absolute top-40 flex justify-center items-center">
         <p className="">
@@ -43,7 +43,7 @@ const Home: FC<Home> = ({ data }) => {
             );
           })}
       </div>
-      <div className="w-max h-max flex flex-col gap-y-5 text-xl ml-20">
+      <div className="h-max flex flex-col gap-y-5 text-xl ml-20">
         <p className="font-semibold ">Daily Meal Plan</p>
         <div className="p-5 flex flex-col gap-y-10">
           <p className="font-semibold ">Information</p>
@@ -63,8 +63,8 @@ const Home: FC<Home> = ({ data }) => {
                   <div key={index} className="w-60 h-80 relative">
                     <Card id="foods">
                       <Image
-                        width={150}
-                        height={150}
+                        width={100}
+                        height={100}
                         alt="meal"
                         className="w-full h-full rounded-md"
                         src={`https://webknox.com/recipeImages/${

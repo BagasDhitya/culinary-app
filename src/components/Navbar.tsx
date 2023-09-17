@@ -6,7 +6,7 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <nav className="w-screen h-38 z-10 bg-white fixed shadow-sm sticky top-0 flex justify-between items-center px-4">
+    <nav className="w-screen h-38 z-10 bg-white fixed shadow-sm sticky flex justify-between items-center px-4">
       <Image
         alt="landing"
         src={require("../../public/logo.png")}
