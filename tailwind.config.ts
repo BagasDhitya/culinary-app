@@ -19,6 +19,12 @@ const config: Config = {
         'culinary-amber-500': '#f59e0b',
         'culinary-amber-600': '#d97706',
         'culinary-amber-700': '#b45309'
+      },
+      fontFamily: {
+        regular: 'poppins-regular',
+        medium: 'poppins-medium',
+        semibold: 'poppins-semibold',
+        bold: 'poppina-bold'
       }
     },
   },

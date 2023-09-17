@@ -7,6 +7,21 @@
     src: url('../../public/fonts/Poppins-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../../public/fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('../../public/fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../../public/fonts/Poppins-Bold.ttf');
+}
+
 :root {
     font-family: 'poppins-regular' ;
 }
