@@ -1,0 +1,29 @@
+{
+    "items" : [
+        {
+            "id" : 1,
+            "title" : "Food",
+            "image" : "https://i.pinimg.com/564x/07/75/a5/0775a5b2e05c5f5296951382e0107107.jpg"
+        },
+        {
+            "id" : 2,
+            "title" : "Beverages",
+            "image" : "https://i.pinimg.com/564x/51/18/03/5118033fca76e1f08a94540033cfb072.jpg"
+        },
+        {
+            "id" : 1,
+            "title" : "Recipes",
+            "image" : "https://i.pinimg.com/564x/22/fe/08/22fe083a306f73cff52c9c5a921c223a.jpg"
+        },
+        {
+            "id" : 1,
+            "title" : "Ingredients",
+            "image" : "https://i.pinimg.com/564x/40/bc/fe/40bcfe75bb758e85bf3be554685d397e.jpg"
+        },
+        {
+            "id" : 1,
+            "title" : "Nutritions",
+            "image" : "https://i.pinimg.com/564x/77/36/cb/7736cb34dd059bed33e10022306b08e3.jpg"
+        }
+    ]
+}
